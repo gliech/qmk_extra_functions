@@ -1,0 +1,9 @@
+void tap_random_binary(void);
+void tap_random_decimal(void);
+void tap_random_hexadecimal(void);
+void tap_random_german_base64(void);
+void tap_random_binary_byte(void);
+void tap_random_decimal_byte(void);
+void tap_random_hexadecimal_byte(void);
+void tap_random_coinflip(void);
+void tap_random_dice6(void);
