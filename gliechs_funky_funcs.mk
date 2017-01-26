@@ -1,3 +1,3 @@
-VPATH += $(TOPDIR)/gff
+VPATH += $(GFF_PATH)
 SRC += random_keys.c \
-       gb_extra_funcs.c
+       shiftlayer.c

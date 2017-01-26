@@ -2,6 +2,7 @@
 #include "action.h"
 #include "keymap_german.h"
 #include <stdint.h>
+#include <stdlib.h>
 
 static uint8_t get_rand(uint8_t max) {
 #if defined(__AVR_ATmega32U4__)
