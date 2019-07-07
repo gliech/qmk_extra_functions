@@ -25,10 +25,7 @@ void update_tri_shiftlayer(uint8_t shiftlayer, uint8_t nonshiftlayer, uint8_t tw
 };
 
 void register_shiftlayer_code(uint8_t code, uint8_t layermods, uint8_t mods) {
-	unregister_mods(layermods);
-	if (mods) {
-		register_mods(mods);
-	};
+	set_mods( ( get_mods() & ( ! layermods ) ) | mods );
 	register_code(code);
 };
 
